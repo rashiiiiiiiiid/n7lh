@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>N7lh | راشد الفيفي</title>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Tajawal:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--p:#9b4dff;--p2:#6b21e8;--bg:#050408;--card:#0d0b14;--w:#fff;--mut:rgba(255,255,255,.5);color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;overflow-x:hidden;scroll-padding-top:90px}
+body{margin:0;background:var(--bg);color:var(--w);font-family:"Tajawal",Tahoma,Arial,sans-serif;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.bgfx{position:fixed;inset:0;z-index:0;background:radial-gradient(600px 600px at 90% -5%,rgba(155,77,255,.28),transparent 70%),radial-gradient(500px 500px at 0% 40%,rgba(107,33,232,.18),transparent 70%),linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px) 0 0/48px 48px,linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px) 0 0/48px 48px}
+.wrap{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 14px 40px}
+nav{position:sticky;top:8px;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 16px;border-radius:22px;background:rgba(11,9,18,.92);border:1px solid rgba(255,255,255,.1);box-shadow:0 18px 50px rgba(0,0,0,.55);margin-top:8px}
+nav:before{content:"";position:absolute;top:0;left:40px;right:40px;height:2px;background:linear-gradient(90deg,transparent,var(--p),transparent)}
+.brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:18px}
+.lg{width:40px;height:40px;border-radius:14px;border:1px solid var(--p);box-shadow:0 0 18px rgba(155,77,255,.5);display:flex;align-items:center;justify-content:center;overflow:hidden;background:#12091f;font-family:Bangers;color:var(--p);font-size:20px}
+.lg img{width:100%;height:100%;object-fit:cover}
+.links{display:flex;gap:4px;font-weight:700;font-size:13px;color:var(--mut)}
+.links a{padding:8px 14px;border-radius:14px}.links a:hover{background:rgba(255,255,255,.06);color:#fff}
+.off{font-size:11px;font-weight:900;padding:7px 12px;border-radius:99px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.05);color:var(--mut)}
+@media(max-width:700px){.links{display:none}}
+.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:30px;align-items:center;padding:36px 0 26px}
+@media(max-width:850px){.hero{grid-template-columns:1fr;text-align:center}.hero .vis{order:-1}}
+.sub{color:var(--mut);font-weight:700;font-size:14px;margin:0 0 6px}
+h1.name{font-family:Bangers,Impact;font-weight:400;margin:0;line-height:.95;letter-spacing:2px;font-size:clamp(90px,22vw,170px);direction:ltr;color:transparent;-webkit-text-stroke:2px var(--p);text-shadow:2px 2px 0 #3b1380,4px 4px 0 #2a0d5e,6px 6px 0 #1b083c,0 0 40px rgba(155,77,255,.7)}
+.king{font-family:Bangers;direction:ltr;font-size:clamp(20px,4vw,36px);color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.7);letter-spacing:3px}
+.tags{display:flex;gap:8px;flex-wrap:wrap;justify-content:inherit;margin-top:14px}
+.tags span{padding:6px 16px;border-radius:99px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);font-size:12px;font-weight:700;color:rgba(255,255,255,.75)}
+.cta{display:flex;gap:10px;margin-top:22px;flex-wrap:wrap;justify-content:inherit}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 28px;border-radius:20px;font-weight:900;font-size:15px;background:linear-gradient(#b373ff,var(--p2));color:#fff;box-shadow:0 0 35px rgba(155,77,255,.45);transition:.2s}
+.btn:hover{transform:translateY(-2px)}.btn.g{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.15);box-shadow:none}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:24px}
+.stat{border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.03);border-radius:22px;padding:14px 8px;text-align:center}
+.stat b{display:block;font-size:22px;font-weight:900}.stat i{display:block;font-style:normal;font-size:10px;letter-spacing:2px;color:var(--mut);margin-top:4px}
+.vis{display:flex;justify-content:center}
+.ring{position:relative;width:min(300px,70vw);aspect-ratio:1;display:flex;align-items:center;justify-content:center}
+.ring:before,.ring:after{content:"";position:absolute;inset:-14px;border-radius:50%;border:2px dashed rgba(155,77,255,.6);animation:spin 18s linear infinite}
+.ring:after{inset:-30px;border:1px solid rgba(155,77,255,.3);animation-duration:28s;animation-direction:reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.logo{position:relative;width:100%;height:100%;border-radius:50%;overflow:hidden;border:2px solid rgba(255,255,255,.15);background:radial-gradient(#25104a,#0a0614);display:flex;align-items:center;justify-content:center;font-family:Bangers;font-size:90px;color:var(--p);box-shadow:0 0 70px rgba(155,77,255,.4);animation:fl 5s ease-in-out infinite}
+.logo img{width:100%;height:100%;object-fit:cover}
+.logo:after{content:"";position:absolute;left:0;right:0;height:35%;top:-35%;background:linear-gradient(transparent,rgba(155,77,255,.35),transparent);animation:scan 3s linear infinite}
+@keyframes scan{to{top:100%}}@keyframes fl{50%{transform:translateY(-8px)}}
+.chip{position:absolute;padding:8px 12px;border-radius:16px;background:rgba(20,12,36,.85);border:1px solid rgba(155,77,255,.4);font-weight:900;font-size:12px;backdrop-filter:blur(8px)}
+.chip small{display:block;font-size:9px;color:var(--p);letter-spacing:2px}
+.mq{margin:0 -14px;overflow:hidden;border-block:1px solid rgba(255,255,255,.1);background:rgba(0,0,0,.75);direction:ltr}
+.mq div{display:flex;width:max-content;animation:mq 25s linear infinite;padding:12px 0}
+.mq span{padding:0 22px;font-weight:900;font-size:14px;letter-spacing:.2em;white-space:nowrap}
+.mq span:nth-child(odd){color:var(--p)}.mq span:nth-child(even){color:#fff}
+@keyframes mq{to{transform:translateX(-50%)}}
+section{padding-top:56px}
+.sh{display:flex;align-items:flex-end;gap:14px;margin-bottom:24px}
+.sh .n{font-family:Bangers;font-size:56px;line-height:1;color:transparent;-webkit-text-stroke:1.5px var(--p);direction:ltr}
+.sh h2{margin:0;font-size:30px;font-weight:900}.sh p{margin:4px 0 0;color:var(--mut);font-size:13px}
+.sh .l{flex:1}.sh .l:after{content:"";display:block;height:1px;margin-top:10px;background:linear-gradient(270deg,var(--p),rgba(255,255,255,.1),transparent)}
+.grid{display:grid;gap:12px}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+@media(max-width:900px){.g3{grid-template-columns:1fr 1fr}.g4{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.g3,.g4{grid-template-columns:1fr}}
+.acc{position:relative;display:flex;align-items:center;gap:14px;padding:18px;border-radius:26px;border:1px solid rgba(255,255,255,.09);background:linear-gradient(135deg,color-mix(in srgb,var(--c) 22%,transparent),transparent 60%),var(--card);transition:.25s;overflow:hidden}
+.acc:hover{transform:translateY(-4px);border-color:var(--c)}
+.acc .ic{width:62px;height:62px;border-radius:20px;display:flex;align-items:center;justify-content:center;color:var(--c);background:rgba(255,255,255,.05);border:1.5px solid rgba(255,255,255,.13);flex:none}
+.acc .ic svg{width:30px;height:30px;fill:currentColor}
+.acc small{font-size:10px;letter-spacing:.2em;color:var(--mut);font-weight:900}
+.acc b{display:block;font-size:19px;direction:ltr;text-align:right}.acc em{font-style:normal;font-size:12px;color:rgba(255,255,255,.8);font-weight:900}
+.wide{grid-column:span 3}@media(max-width:900px){.wide{grid-column:span 2}}@media(max-width:560px){.wide{grid-column:span 1}}
+.rep{border-radius:32px;border:1px solid rgba(255,255,255,.1);background:rgba(10,8,16,.92);overflow:hidden;position:relative}
+.rep:before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(270deg,transparent,var(--p),transparent)}
+.rep .in{padding:26px;display:grid;grid-template-columns:340px 1fr;gap:24px}@media(max-width:850px){.rep .in{grid-template-columns:1fr}}
+.thumb{aspect-ratio:16/9;border-radius:18px;border:1px solid rgba(155,77,255,.35);background:linear-gradient(135deg,#1a0b33,#07040d);display:flex;align-items:center;justify-content:center;font-weight:900;color:var(--mut);box-shadow:0 24px 60px -16px rgba(155,77,255,.4)}
+.pill{display:inline-block;font-size:10px;font-weight:900;padding:5px 12px;border-radius:99px;background:rgba(155,77,255,.12);border:1px solid rgba(155,77,255,.35);color:#c9a0ff;margin:0 0 6px 6px}
+.k4{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:16px}@media(max-width:560px){.k4{grid-template-columns:1fr 1fr}}
+.k4 div{border:1px solid rgba(255,255,255,.1);border-radius:18px;padding:14px;text-align:center;background:rgba(255,255,255,.04)}
+.k4 b{font-size:22px;display:block}.k4 i{font-style:normal;font-size:10px;color:var(--mut);letter-spacing:2px}
+.clips{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:20px}
+.clips div{aspect-ratio:16/9;border-radius:16px;border:1px solid rgba(255,255,255,.1);background:linear-gradient(135deg,#1a0b33,#07040d);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:var(--mut)}
+.mod{border-radius:22px;border:1px solid rgba(255,255,255,.1);background:var(--card);overflow:hidden;transition:.25s}
+.mod:hover{transform:translateY(-4px);border-color:rgba(155,77,255,.6);box-shadow:0 24px 60px -16px rgba(155,77,255,.35)}
+.mod .bn{height:76px;background:linear-gradient(135deg,rgba(155,77,255,.35),#07040d);position:relative}
+.mod .bn span{position:absolute;top:8px;right:8px;font-size:9px;font-weight:900;letter-spacing:.15em;padding:3px 9px;border-radius:9px;background:rgba(0,0,0,.55);border:1px solid rgba(155,77,255,.45);color:#d9bcff}
+.mod .bd{padding:0 16px 16px;margin-top:-26px}
+.av{width:56px;height:56px;border-radius:50%;padding:2px;background:conic-gradient(#d9bcff,#6b21e8,#f0e0ff,#6b21e8,#d9bcff);display:flex}
+.av i{flex:1;border-radius:50%;background:#14101f;display:flex;align-items:center;justify-content:center;font-style:normal;font-weight:900;font-size:20px;color:#d9bcff}
+.mod b{display:block;margin-top:8px;font-size:16px;direction:ltr;text-align:right}.mod small{color:var(--mut);font-size:11px;direction:ltr;display:block;text-align:right}
+.mod .r{display:flex;align-items:center;justify-content:space-between;margin-top:12px;font-size:12px;font-weight:900}
+.mod .r a{padding:7px 14px;border-radius:12px;background:#fff;color:#000;font-size:11px}
+.badges{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.bd6{width:78px;text-align:center}.bd6 div{width:68px;height:68px;margin:auto;border-radius:20px;border:1px solid rgba(255,255,255,.12);background:linear-gradient(rgba(255,255,255,.08),rgba(255,255,255,.02));display:flex;align-items:center;justify-content:center;color:var(--p);font-family:Bangers;font-size:22px}
+.bd6 span{font-size:10px;font-weight:900;color:var(--mut);letter-spacing:.1em;display:block;margin-top:6px}
+.vip{display:flex;align-items:center;gap:14px;padding:18px;border-radius:26px;border:1px solid rgba(255,215,106,.4);background:linear-gradient(135deg,rgba(255,215,106,.12),var(--card));max-width:420px}
+.vip b{font-size:20px;direction:ltr}.vip small{color:#ffd76a;font-weight:900;letter-spacing:.2em;font-size:10px;display:block}
+.sup{display:block;max-width:560px;margin:auto;padding:26px;border-radius:30px;border:1px solid rgba(155,77,255,.45);background:linear-gradient(150deg,rgba(155,77,255,.18),var(--card));text-align:center;transition:.25s}
+.sup:hover{transform:translateY(-4px)}.sup h3{margin:0 0 6px;font-size:36px;font-weight:900;direction:ltr}
+.sup span{display:block;margin-top:16px;padding:14px;border-radius:18px;background:linear-gradient(#b373ff,var(--p2));font-weight:900}
+.soon{border:1px dashed rgba(255,255,255,.2);border-radius:22px;padding:22px;text-align:center;color:var(--mut);font-weight:700}
+footer{margin-top:70px;border-radius:30px;border:1px solid rgba(255,255,255,.1);background:rgba(0,0,0,.85);padding:40px 16px;text-align:center;position:relative}
+footer:before{content:"";position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(270deg,transparent,var(--p),transparent)}
+footer .big{font-family:Bangers;font-size:clamp(70px,18vw,130px);line-height:1;color:transparent;-webkit-text-stroke:2px rgba(155,77,255,.5);direction:ltr}
+footer .so{display:flex;justify-content:center;gap:10px;margin-top:6px}
+footer .so a{width:44px;height:44px;border-radius:14px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.05);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.65)}
+footer .so a:hover{color:#fff;border-color:var(--p)}footer svg{width:22px;height:22px;fill:currentColor}
+footer p{color:rgba(255,255,255,.4);font-size:12px;margin:16px 0 0}
+</style>
+</head>
+<body>
+<div class="bgfx"></div>
+<div class="wrap">
+<nav>
+  <a href="#top" class="brand"><span class="lg" id="navlogo">N</span><span dir="ltr"><span style="color:var(--p)">N7</span>lh</span></a>
+  <div class="links"><a href="#accounts">الحسابات</a><a href="#live">البث</a><a href="#mods">المشرفون</a><a href="#support">الدعم</a></div>
+  <span class="off" id="liveBadge">● غير متصل حالياً</span>
+</nav>
+
+<div class="hero" id="top">
+  <div>
+    <p class="sub">راشد الفيفي • <span dir="ltr">RASHID ALFAIFI</span></p>
+    <h1 class="name" aria-label="N7lh">N7lh</h1>
+    <div class="king">STREAMER</div>
+    <div class="tags"><span>#بث_مباشر</span><span>#ألعاب</span><span>#سوالف</span></div>
+    <div class="cta"><a class="btn" href="https://kick.com/N7lh" target="_blank" rel="noopener">▶ شاهد البث</a></div>
+    <div class="stats">
+      <div class="stat"><b dir="ltr" id="hKick">269</b><i>متابع كيك</i></div>
+      <div class="stat"><b dir="ltr" id="hTotal">4.5K</b><i>إجمالي المتابعين</i></div>
+      <div class="stat"><b dir="ltr">3</b><i>منصات</i></div>
+    </div>
+  </div>
+  <div class="vis"><div class="ring">
+    <div class="logo" id="herologo">N7</div>
+    <div class="chip" style="top:-6px;right:-10px"><small>الحالة</small><span id="chipLive">غير متصل</span></div>
+    <div class="chip" style="bottom:20px;left:-16px"><small dir="ltr">KICK</small><span dir="ltr" id="chipKick">269</span></div>
+  </div></div>
+</div>
+
+<div class="mq"><div id="mq"></div></div>
+
+<section id="accounts">
+  <div class="sh"><span class="n">01</span><div class="l"><h2>ساحة الحسابات</h2><p>كل حساباتي في مكان واحد.</p></div></div>
+  <div class="grid g3" id="accs"></div>
+</section>
+
+<section id="stats">
+  <div class="sh"><span class="n">★</span><div class="l"><h2>إحصائياتي</h2><p>تتحدث تلقائياً.</p></div></div>
+  <div class="grid g3" id="statgrid"></div>
+</section>
+
+<section id="live">
+  <div class="sh"><span class="n">02</span><div class="l"><h2>آخر بث</h2><p>تقرير الجلسة الأخيرة.</p></div></div>
+  <div class="rep"><div class="in">
+    <div><div class="thumb">VOD</div><a class="btn" style="width:100%;margin-top:12px" href="https://kick.com/N7lh/videos" target="_blank" rel="noopener">مشاهدة التسجيل</a></div>
+    <div>
+      <span class="pill">NULL</span><span class="pill">#IRL</span>
+      <h3 style="font-size:26px;margin:8px 0 0;font-weight:900">NULL</h3>
+      <div class="k4"><div><b>NULL</b><i>المدة</i></div><div><b>NULL</b><i>المشاهدات</i></div><div><b>NULL</b><i>الذروة</i></div><div><b>NULL</b><i>مشاهدة / ساعة</i></div></div>
+      <p style="margin:18px 0 8px;font-size:11px;letter-spacing:.25em;color:var(--mut);font-weight:900">الفئات التي تم بثها</p>
+      <span class="pill">NULL</span>
+    </div>
+  </div>
+  <div style="padding:0 26px 26px"><p style="font-size:11px;letter-spacing:.25em;color:var(--mut);font-weight:900">لقطات ممتعة من البث</p>
+  <div class="clips"><div>NULL</div><div>NULL</div><div>NULL</div></div></div></div>
+</section>
+
+<section>
+  <div class="sh"><span class="n">03</span><div class="l"><h2>شارات المشتركين</h2><p>شارات قناتي على كيك.</p></div></div>
+  <div class="badges" id="badges"></div>
+</section>
+
+<section id="mods">
+  <div class="sh"><span class="n">04</span><div class="l"><h2>المشرفون</h2><p>فريق الإشراف في قناتي.</p></div></div>
+  <div class="grid g4" id="modgrid"></div>
+</section>
+
+<section>
+  <div class="sh"><span class="n">05</span><div class="l"><h2>VIP</h2></div></div>
+  <div class="vip"><span class="av"><i>M</i></span><div><small>VIP</small><b>Mjod1</b></div></div>
+</section>
+
+<section>
+  <div class="sh"><span class="n">06</span><div class="l"><h2>آخر التغريدات والصور</h2></div></div>
+  <div class="soon">قريباً — بنضيف آخر التغريدات والصور من حساباتي هنا.</div>
+</section>
+
+<section id="support">
+  <div class="sh"><span class="n">07</span><div class="l"><h2>الدعم المادي</h2><p>دعمك يخلي البث يستمر.</p></div></div>
+  <a class="sup" href="https://creators.sa/rashidbk" target="_blank" rel="noopener"><h3>DOKAN</h3><p style="margin:0;color:var(--mut)">كريترز • دعم دكان</p><span>ادعم عبر دكان</span></a>
+</section>
+
+<footer>
+  <div class="big">N7lh</div>
+  <div class="so" id="so"></div>
+  <p>© 2026 N7lh. جميع الحقوق محفوظة.</p>
+</footer>
+</div>
+
+<script>
+/* ===== عدّل هنا ===== */
+var LOGO_URL = "data:image/webp;base64,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";            // ضع رابط شعارك هنا (صورة)
+var WHITE_LOGO_URL = "";      // النسخة البيضاء
+var ACCOUNTS = [
+ {n:"Kick",h:"N7lh",u:"https://kick.com/N7lh",f:"269",d:"البث الأساسي والتفاعل المباشر",c:"#53FC18",main:1,p:"M3 3h4.5v6.9l6-6.9H19l-7.5 8.4L20 21h-5.4l-5.1-6.6V21H3V3z"},
+ {n:"Twitch",h:"n7ih",u:"https://www.twitch.tv/n7ih",f:"4.2K",d:"بث وتفاعل على تويتش",c:"#9146FF",p:"M4.3 3 3 6.5v13h4.5V22H10l2.5-2.5h3.7L21 14.7V3H4.3zm14.9 10.7-3 3h-4.8l-2.5 2.5v-2.5H6.4V4.8h12.8v8.9zM16.2 8h-1.7v5h1.7V8zm-4.7 0H9.8v5h1.7V8z"},
+ {n:"X",h:"@N7Ih_",u:"https://x.com/N7Ih_",f:"95",d:"أخبار وتحديثات سريعة",c:"#ffffff",p:"M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"}
+];
+var MODS = [
+ {n:"vPuKa",f:"396"},{n:"Izyad",f:"61"},{n:"iNight",f:"35"},{n:"Ghaada",f:"---"},
+ {n:"BotRix",f:"---"},{n:"KLDAI",f:"16"},{n:"IB3B3",f:"---"},{n:"AhadI",f:"42"}
+];
+var BADGES = ["1M","2M","3M","6M","12M","24M"];
+var MARQUEE = ["موقع نحلة الخاص","تنوروني بحساباتي"];
+/* ==================== */
+function $(i){return document.getElementById(i)}
+function svg(p){return '<svg viewBox="0 0 24 24"><path d="'+p+'"/></svg>'}
+function setLogo(el,url,fb){ if(url){el.innerHTML='<img alt="logo" src="'+url+'">'} else {el.textContent=fb} }
+setLogo($('navlogo'),LOGO_URL,"N"); setLogo($('herologo'),LOGO_URL,"N7");
+function drawAccs(){ $('accs').innerHTML = ACCOUNTS.map(function(a){
+ return '<a class="acc'+(a.main?' wide':'')+'" style="--c:'+a.c+'" href="'+a.u+'" target="_blank" rel="noopener"><span class="ic">'+svg(a.p)+'</span><span style="flex:1;min-width:0"><small>'+a.n.toUpperCase()+'</small><b>'+a.h+'</b><em dir="ltr">'+a.f+'</em> <span style="font-size:11px;color:var(--mut)">'+a.d+'</span></span></a>';
+}).join('');}
+$('modgrid').innerHTML = MODS.map(function(m){
+ return '<div class="mod"><div class="bn"><span>مشرف</span></div><div class="bd"><span class="av"><i>'+m.n[0].toUpperCase()+'</i></span><b>'+m.n+'</b><small>KICK: '+m.n+'</small><div class="r"><span dir="ltr">'+m.f+' <span style="color:var(--mut)">متابع</span></span><a href="https://kick.com/'+m.n+'" target="_blank" rel="noopener">تابع</a></div></div></div>';
+}).join('');
+$('badges').innerHTML = BADGES.map(function(b){return '<div class="bd6"><div>'+b+'</div><span dir="ltr">'+b+'</span></div>'}).join('');
+var mq=''; for(var k=0;k<8;k++){MARQUEE.forEach(function(t){mq+='<span>'+t+' ◆</span>'})} $('mq').innerHTML=mq;
+$('so').innerHTML = ACCOUNTS.map(function(a){return '<a href="'+a.u+'" target="_blank" rel="noopener" aria-label="'+a.n+'">'+svg(a.p)+'</a>'}).join('');
+
+function fmt(n){return n>=1000?(Math.round(n/100)/10)+'K':String(n)}
+ACCOUNTS[0].v=269;ACCOUNTS[1].v=4200;ACCOUNTS[2].v=95;
+function paint(){
+ var t=0;ACCOUNTS.forEach(function(a){a.f=fmt(a.v);t+=a.v});
+ drawAccs();
+ $('hKick').textContent=fmt(ACCOUNTS[0].v);$('chipKick').textContent=fmt(ACCOUNTS[0].v);$('hTotal').textContent=fmt(t);
+ var S=[[t,'إجمالي المتابعين'],[ACCOUNTS[0].v,'متابع كيك'],[ACCOUNTS[1].v,'متابع تويتش'],[ACCOUNTS[2].v,'متابع إكس'],[MODS.length,'مشرف'],[ACCOUNTS.length,'منصات']];
+ $('statgrid').innerHTML=S.map(function(s){return '<div class="stat"><b dir="ltr">'+fmt(s[0])+'</b><i>'+s[1]+'</i></div>'}).join('');
+}
+function setLive(l){$('liveBadge').textContent=l?'● مباشر الآن':'● غير متصل حالياً';$('liveBadge').style.color=l?'#53FC18':'';$('chipLive').textContent=l?'مباشر':'غير متصل'}
+function pull(){fetch('/api/stats',{cache:'no-store'}).then(function(r){return r.ok?r.json():Promise.reject()}).then(function(d){
+ if(d.kick!=null)ACCOUNTS[0].v=d.kick;if(d.twitch!=null)ACCOUNTS[1].v=d.twitch;if(d.x!=null)ACCOUNTS[2].v=d.x;
+ setLive(!!d.live);paint()}).catch(function(){})}
+paint();pull();setInterval(pull,60000);
+</script>
+</body>
+</html>
